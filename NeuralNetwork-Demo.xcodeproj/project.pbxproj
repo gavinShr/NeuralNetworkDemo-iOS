@@ -12,6 +12,19 @@
 		13142F8F2252B0B700F0FB6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13142F8D2252B0B700F0FB6A /* Main.storyboard */; };
 		13142F912252B0B800F0FB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13142F902252B0B800F0FB6A /* Assets.xcassets */; };
 		13142F942252B0B800F0FB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13142F922252B0B800F0FB6A /* LaunchScreen.storyboard */; };
+		13142F9C2252B24E00F0FB6A /* NeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13142F9B2252B24E00F0FB6A /* NeuralNetwork.swift */; };
+		13142F9E2252B2B300F0FB6A /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13142F9D2252B2B300F0FB6A /* Layer.swift */; };
+		13142FA72252B32700F0FB6A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13142FA62252B32700F0FB6A /* Extensions.swift */; };
+		13142FA92252B3EA00F0FB6A /* SigmoidActivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13142FA82252B3EA00F0FB6A /* SigmoidActivation.swift */; };
+		13142FAC2252B4F700F0FB6A /* MainViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13142FAB2252B4F700F0FB6A /* MainViewHandler.swift */; };
+		13142FAE2252B69100F0FB6A /* NeuralNetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13142FAD2252B69100F0FB6A /* NeuralNetworkHandler.swift */; };
+		13142FB02252B6E900F0FB6A /* NeuralNetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13142FAF2252B6E900F0FB6A /* NeuralNetworkConstants.swift */; };
+		13142FB42252B7E100F0FB6A /* NeuralNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13142FB32252B7E100F0FB6A /* NeuralNetworkView.swift */; };
+		13142FB62252D73500F0FB6A /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13142FB52252D73500F0FB6A /* ControlView.swift */; };
+		13142FB82252D88F00F0FB6A /* HapticGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13142FB72252D88F00F0FB6A /* HapticGenerator.swift */; };
+		13142FBA2252DB4100F0FB6A /* InputOutputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13142FB92252DB4100F0FB6A /* InputOutputView.swift */; };
+		13142FBC2252E5E900F0FB6A /* RunningOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13142FBB2252E5E900F0FB6A /* RunningOverlayView.swift */; };
+		13142FBE2252E84200F0FB6A /* CONSTANTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13142FBD2252E84200F0FB6A /* CONSTANTS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,19 @@
 		13142F902252B0B800F0FB6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13142F932252B0B800F0FB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13142F952252B0B800F0FB6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13142F9B2252B24E00F0FB6A /* NeuralNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetwork.swift; sourceTree = "<group>"; };
+		13142F9D2252B2B300F0FB6A /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		13142FA62252B32700F0FB6A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		13142FA82252B3EA00F0FB6A /* SigmoidActivation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigmoidActivation.swift; sourceTree = "<group>"; };
+		13142FAB2252B4F700F0FB6A /* MainViewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewHandler.swift; sourceTree = "<group>"; };
+		13142FAD2252B69100F0FB6A /* NeuralNetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetworkHandler.swift; sourceTree = "<group>"; };
+		13142FAF2252B6E900F0FB6A /* NeuralNetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetworkConstants.swift; sourceTree = "<group>"; };
+		13142FB32252B7E100F0FB6A /* NeuralNetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetworkView.swift; sourceTree = "<group>"; };
+		13142FB52252D73500F0FB6A /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		13142FB72252D88F00F0FB6A /* HapticGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticGenerator.swift; sourceTree = "<group>"; };
+		13142FB92252DB4100F0FB6A /* InputOutputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputOutputView.swift; sourceTree = "<group>"; };
+		13142FBB2252E5E900F0FB6A /* RunningOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningOverlayView.swift; sourceTree = "<group>"; };
+		13142FBD2252E84200F0FB6A /* CONSTANTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CONSTANTS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,99 @@
 		13142F882252B0B700F0FB6A /* NeuralNetwork-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				13142F892252B0B700F0FB6A /* AppDelegate.swift */,
-				13142F8B2252B0B700F0FB6A /* ViewController.swift */,
-				13142F8D2252B0B700F0FB6A /* Main.storyboard */,
-				13142F902252B0B800F0FB6A /* Assets.xcassets */,
-				13142F922252B0B800F0FB6A /* LaunchScreen.storyboard */,
 				13142F952252B0B800F0FB6A /* Info.plist */,
+				13142F902252B0B800F0FB6A /* Assets.xcassets */,
+				13142FA12252B2DC00F0FB6A /* [CONTROLLER] */,
+				13142FA02252B2D400F0FB6A /* [VIEW] */,
+				13142F9F2252B2CA00F0FB6A /* [MODEL] */,
 			);
 			path = "NeuralNetwork-Demo";
+			sourceTree = "<group>";
+		};
+		13142F9F2252B2CA00F0FB6A /* [MODEL] */ = {
+			isa = PBXGroup;
+			children = (
+				13142FA52252B31900F0FB6A /* Utility */,
+				13142FA22252B2E700F0FB6A /* Neural Network */,
+			);
+			path = "[MODEL]";
+			sourceTree = "<group>";
+		};
+		13142FA02252B2D400F0FB6A /* [VIEW] */ = {
+			isa = PBXGroup;
+			children = (
+				13142FAA2252B4DB00F0FB6A /* Main Application View */,
+				13142FB22252B7BD00F0FB6A /* Neural Network View */,
+				13142FB12252B7B800F0FB6A /* Control View */,
+				13142FA32252B2F700F0FB6A /* Default Storyboards */,
+			);
+			path = "[VIEW]";
+			sourceTree = "<group>";
+		};
+		13142FA12252B2DC00F0FB6A /* [CONTROLLER] */ = {
+			isa = PBXGroup;
+			children = (
+				13142F8B2252B0B700F0FB6A /* ViewController.swift */,
+				13142F892252B0B700F0FB6A /* AppDelegate.swift */,
+			);
+			path = "[CONTROLLER]";
+			sourceTree = "<group>";
+		};
+		13142FA22252B2E700F0FB6A /* Neural Network */ = {
+			isa = PBXGroup;
+			children = (
+				13142FAD2252B69100F0FB6A /* NeuralNetworkHandler.swift */,
+				13142F9B2252B24E00F0FB6A /* NeuralNetwork.swift */,
+				13142F9D2252B2B300F0FB6A /* Layer.swift */,
+				13142FA82252B3EA00F0FB6A /* SigmoidActivation.swift */,
+			);
+			path = "Neural Network";
+			sourceTree = "<group>";
+		};
+		13142FA32252B2F700F0FB6A /* Default Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				13142F922252B0B800F0FB6A /* LaunchScreen.storyboard */,
+				13142F8D2252B0B700F0FB6A /* Main.storyboard */,
+			);
+			path = "Default Storyboards";
+			sourceTree = "<group>";
+		};
+		13142FA52252B31900F0FB6A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				13142FA62252B32700F0FB6A /* Extensions.swift */,
+				13142FAF2252B6E900F0FB6A /* NeuralNetworkConstants.swift */,
+				13142FB72252D88F00F0FB6A /* HapticGenerator.swift */,
+				13142FBD2252E84200F0FB6A /* CONSTANTS.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		13142FAA2252B4DB00F0FB6A /* Main Application View */ = {
+			isa = PBXGroup;
+			children = (
+				13142FAB2252B4F700F0FB6A /* MainViewHandler.swift */,
+				13142FBB2252E5E900F0FB6A /* RunningOverlayView.swift */,
+			);
+			path = "Main Application View";
+			sourceTree = "<group>";
+		};
+		13142FB12252B7B800F0FB6A /* Control View */ = {
+			isa = PBXGroup;
+			children = (
+				13142FB52252D73500F0FB6A /* ControlView.swift */,
+			);
+			path = "Control View";
+			sourceTree = "<group>";
+		};
+		13142FB22252B7BD00F0FB6A /* Neural Network View */ = {
+			isa = PBXGroup;
+			children = (
+				13142FB32252B7E100F0FB6A /* NeuralNetworkView.swift */,
+				13142FB92252DB4100F0FB6A /* InputOutputView.swift */,
+			);
+			path = "Neural Network View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +246,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13142FBA2252DB4100F0FB6A /* InputOutputView.swift in Sources */,
+				13142FAC2252B4F700F0FB6A /* MainViewHandler.swift in Sources */,
+				13142FA72252B32700F0FB6A /* Extensions.swift in Sources */,
+				13142FB62252D73500F0FB6A /* ControlView.swift in Sources */,
 				13142F8C2252B0B700F0FB6A /* ViewController.swift in Sources */,
 				13142F8A2252B0B700F0FB6A /* AppDelegate.swift in Sources */,
+				13142FB42252B7E100F0FB6A /* NeuralNetworkView.swift in Sources */,
+				13142FAE2252B69100F0FB6A /* NeuralNetworkHandler.swift in Sources */,
+				13142F9C2252B24E00F0FB6A /* NeuralNetwork.swift in Sources */,
+				13142FB82252D88F00F0FB6A /* HapticGenerator.swift in Sources */,
+				13142FB02252B6E900F0FB6A /* NeuralNetworkConstants.swift in Sources */,
+				13142FBC2252E5E900F0FB6A /* RunningOverlayView.swift in Sources */,
+				13142FA92252B3EA00F0FB6A /* SigmoidActivation.swift in Sources */,
+				13142FBE2252E84200F0FB6A /* CONSTANTS.swift in Sources */,
+				13142F9E2252B2B300F0FB6A /* Layer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +409,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6824672SLW;
 				INFOPLIST_FILE = "NeuralNetwork-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +428,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6824672SLW;
 				INFOPLIST_FILE = "NeuralNetwork-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
